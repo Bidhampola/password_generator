@@ -15,7 +15,7 @@ upper=string.ascii_uppercase
 symbols=string.punctuation
 
 #combining all data
-all = upper + lower + num + symbols
+all = upper+upper + lower+lower + num+num + symbols+symbols
 
 #using random
 
